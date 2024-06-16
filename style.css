@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font: 3em serif;
+    word-wrap: normal;
+}
+.keys{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.but{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-color: black;
+    border-radius: 10%;
+    font: 1em serif;
+    border: 5px solid black;
+    cursor: pointer;
+}
+#g{
+    background-color: green;
+}
+#b{
+    background-color: skyblue
+}
+#y{
+    background-color: yellow;
+}
+#r{
+    background-color: red;
+}
+.click{
+    opacity: 0.5;
+    height: 190px;
+    width: 190px;
+    font-size:smaller ;
+}
+.wrong{
+    background-color: red;
+}
